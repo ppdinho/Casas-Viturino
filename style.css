@@ -2,7 +2,7 @@
 .sidebar {
   display: flex;
   background-color: red;
-  width: 1700px;
+  width: 1871px;
   height: 55px;
   margin-top: -10px;
   margin-left: -15px;
@@ -24,7 +24,7 @@
 
 /* Estado */
 .estado {
-  margin-top: -180px;
+  margin-top: -185px;
   margin-left: 520px;
   color: white;
   font-size: 10px;
@@ -32,16 +32,24 @@
 }
 
 /* Traco1 */
-
+.traco1{
+  position: relative;
+  top: -35px;
+  transform: rotate(180deg);
+  left: 625px;
+  width: 1px;
+  background-color: white;
+  height: 40px;
+}
 
 /* Telefone */
 .telefone {
-  font-size: 10px;
-  display: flex;
-  margin-top: -12px;
-  margin-left: 650px;
+  position: relative; 
+  top: 685px;
+left: 720px;
   color: white;
-  position: relative; /* Alterado para relative */
+  font-size: 10px;
+  
 }
 
 /* Search Container */
@@ -97,9 +105,11 @@
 }
 .telefone{
   width: 250px;
+  top: -9px;
 }
 .loc{
   width: 10%;
+
 }
 .suggestion-item:hover {
   background-color: #f0f0f0;
@@ -198,7 +208,7 @@ color: red;
 position: relative;
 top: -480px;
 left:970px;
-width: 100px;
+width: 150px;
 }
 .MaisVendidosbtn{
 color: red;
@@ -223,7 +233,7 @@ width: 30px;
   width: 150px;
 }
 .ferramentas{
-  width: 1690px;
+  width: 1850px;
 }
 .caminhao{
   position: relative;
