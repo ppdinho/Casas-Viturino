@@ -18,8 +18,9 @@
 }
 
 .logo2{
-  margin-top: 10px;
-  margin-left: 10px;
+  position: relative;
+  left: 200px;
+  top: 90px;
 }
 
 /* Estado */
